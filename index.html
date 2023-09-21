@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento onclick</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <header class="header">
+        <ul class="nav">
+            <li>Dojonary</li>
+            <li><input type="text" placeholder="Search"></li>
+            <li><button type="button" class="login" onclick="changeText(this)">Login</button></li>
+        </ul>
+    </header>
+        <main>
+        <div class="container">
+            <div class="card1">
+                <h1>ninja</h1>
+                <div class="box1">
+                    <div class="content1">noun</div> 
+                    <div class="content2">A practitioner skilled in the</div>       
+                </div>
+                <div class="box2">
+                    <div class="content1">Plural: ninjas</div>
+                    <div class="content2">  <a href="">Japonese</a> art of <a href="">ninjutsu</a></div>
+                </div>
+                <button type="button" class="btn-likes" onclick="addLikes(this)">13 likes</button>    
+            </div>
+            <div class="card2">
+                <div>Dojonary is</div>
+                <div>defined by YOU</div>
+                <button class="btn-add" onclick="deleteButton(this)">Add Definition</button>
+            </div>
+        </div>
+        <div class="card3">
+            <h1>ninja</h1>
+            <div class="box1">
+                <div class="content1">noun</div> 
+                <div class="content2">A <a href="">aprogrammer</a> who breaks</div>       
+            </div>
+            <div class="box2">
+                <div class="content1">Plural: ninjas</div>
+                <div class="content2">down problems with  <a href="">zen</a>-like focus</div>
+                
+            </div>
+            <button type="button" class="btn-likes" onclick="addLikes(this)">37 likes</button>    
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
